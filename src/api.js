@@ -9,7 +9,7 @@ const imageSearch = async () => {
       query: 'mountains'
     }
   });
-
+  console.log(response);
   return response;
 };
 
