@@ -1,7 +1,13 @@
 function SearchBar() {
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+
+    console.log('parent needs some data');
+  };
+
   return (
     <div>
-      <form>
+      <form onSubmit={handleFormSubmit}>
         <input />
       </form>
     </div>
