@@ -1,12 +1,9 @@
-function SearchBar({ onSubmit }) {
-  const handleClick = () => {
-    onSubmit('mountains');
-  };
-
+function SearchBar() {
   return (
     <div>
-      <input />
-      <button onClick={handleClick}>Search</button>
+      <form>
+        <input />
+      </form>
     </div>
   );
 }
