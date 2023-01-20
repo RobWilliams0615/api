@@ -1,7 +1,8 @@
 import SearchBar from './components/SearchBar';
+import imageSearch from './api';
 
 const handleSubmit = (term) => {
-  console.log('do a search with', term);
+  imageSearch(term);
 };
 
 function App() {
